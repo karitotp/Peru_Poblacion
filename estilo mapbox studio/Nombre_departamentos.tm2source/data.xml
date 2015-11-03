@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">-75.6299,-12.1682,6</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"export","description":"Nombre _departamentos","fields":{"@changeset":"String","@id":"String","@timestamp":"String","@uid":"String","@user":"String","@version":"String","admin_level":"String","gns_classification":"String","gns_uni":"String","is_in:country":"String","is_in:country_code":"String","is_in:state":"String","name":"String","name:abbreviation":"String","name:en":"String","name:es":"String","name:pl":"String","name:ru":"String","name:uk":"String","place":"String","population":"String","ref":"String","short_name":"String","source":"String","wikipedia":"String","wikipedia:ay":"String","wikipedia:en":"String","wikipedia:es":"String","wikipedia:qu":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">7</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+</Parameters>
+
+
+<Layer name="export"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/home/karito/Desktop/export.geojson]]></Parameter>
+       <Parameter name="layer"><![CDATA[export]]></Parameter>
+       <Parameter name="type"><![CDATA[geojson]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

@@ -1,0 +1,55 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: karitotp.0bd5ce71
+  rev: s-9b0a606f
+  saveCenter: true
+attribution: ''
+center: 
+  - -75.6299
+  - -12.1682
+  - 6
+description: ''
+Layer: 
+  - id: export
+    Datasource: 
+      file: /home/karito/Desktop/export.geojson
+      layer: export
+      type: geojson
+    description: Nombre _departamentos
+    fields: 
+      "@changeset": String
+      "@id": String
+      "@timestamp": String
+      "@uid": String
+      "@user": String
+      "@version": String
+      admin_level: String
+      gns_classification: String
+      gns_uni: String
+      "is_in:country": String
+      "is_in:country_code": String
+      "is_in:state": String
+      name: String
+      "name:abbreviation": String
+      "name:en": String
+      "name:es": String
+      "name:pl": String
+      "name:ru": String
+      "name:uk": String
+      place: String
+      population: String
+      ref: String
+      short_name: String
+      source: String
+      wikipedia: String
+      "wikipedia:ay": String
+      "wikipedia:en": String
+      "wikipedia:es": String
+      "wikipedia:qu": String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 7
+minzoom: 0
+name: ''

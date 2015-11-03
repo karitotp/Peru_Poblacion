@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Peru_Poblacion</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+<script src='export.geojson'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1Ijoia2FyaXRvdHAiLCJhIjoib0ppeVhnWSJ9.JOLM9BQLqtI_bjvNzjNPew';
+
+
+for (var i = 0; i < poblacion.features.length; i++) {
+    poblacion.features[i].properties["title"]= poblacion.features[i].properties.name;
+    poblacion.features[i].properties["description"]= 'Población: '+poblacion.features[i].properties.population;
+    poblacion.features[i].properties["marker-color"]= "#CC0000";
+    poblacion.features[i].properties["marker-size"]= "large";
+
+}
+
+
+
+L.mapbox.map('map', 'karitotp.176864e6')
+  .setView([-9.5, -71.2], 6)
+  .featureLayer.setGeoJSON(poblacion);
+</script>
+
+
+</body>
+</html>
+

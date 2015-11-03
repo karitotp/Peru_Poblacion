@@ -1,0 +1,157 @@
+_prefs: 
+  disabled: 
+    - PER_adm3
+    - PER_adm2
+  inspector: false
+  mapid: karitotp.c25fba94
+  rev: s-8ecb287e
+  saveCenter: true
+attribution: ''
+center: 
+  - -77.3218
+  - -8.2985
+  - 6
+description: ''
+Layer: 
+  - id: PER_adm1
+    Datasource: 
+      file: /home/karito/Desktop/PER_adm/PER_adm1.shp
+      type: shape
+    description: ''
+    fields: 
+      ENGTYPE_1: String
+      ID_0: Number
+      ID_1: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NL_NAME_1: String
+      TYPE_1: String
+      VARNAME_1: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: PER_adm0
+    Datasource: 
+      file: /home/karito/Desktop/PER_adm/PER_adm0.shp
+      type: shape
+    description: ''
+    fields: 
+      ACP: Number
+      Agadir: Number
+      AOSIS: Number
+      ASEAN: Number
+      CACM: Number
+      CAN: Number
+      CARICOM: Number
+      CEEAC: Number
+      CEMAC: Number
+      CEPLG: Number
+      CIS: Number
+      COMESA: Number
+      CONTAINS: String
+      CSN: Number
+      DEVELOPING: Number
+      EAC: Number
+      ECOWAS: Number
+      EU: Number
+      EurAsEC: Number
+      FIPS: String
+      GCC: Number
+      ID_0: Number
+      IGAD: Number
+      IOC: Number
+      Islands: Number
+      ISO: String
+      ISO2: String
+      ISO3: String
+      ISON: Number
+      Landlocked: Number
+      LDC: Number
+      MRU: Number
+      NAFTA: Number
+      NAME_0: String
+      NAME_ARABI: String
+      NAME_CHINE: String
+      NAME_ENGLI: String
+      NAME_FAO: String
+      NAME_FRENC: String
+      NAME_ISO: String
+      NAME_LOCAL: String
+      NAME_NONLA: String
+      NAME_OBSOL: String
+      NAME_RUSSI: String
+      NAME_SPANI: String
+      NAME_VARIA: String
+      OBJECTID_1: Number
+      OECD: Number
+      PALOP: Number
+      PARTA: Number
+      POP2000: Number
+      POPSQKM: Number
+      SAARC: Number
+      SACU: Number
+      SIDS: Number
+      SOVEREIGN: String
+      SQKM: Number
+      Transition: Number
+      UEMOA: Number
+      UMA: Number
+      UNREGION1: String
+      UNREGION2: String
+      VALIDFR: String
+      VALIDTO: String
+      WASPARTOF: String
+      WBDEBT: String
+      WBINCOME: String
+      WBOTHER: String
+      WBREGION: String
+      WWW: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: PER_adm2
+    Datasource: 
+      file: /home/karito/Desktop/PER_adm/PER_adm2.shp
+      type: shape
+    description: ''
+    fields: 
+      ENGTYPE_2: String
+      ID_0: Number
+      ID_1: Number
+      ID_2: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NAME_2: String
+      NL_NAME_2: String
+      TYPE_2: String
+      VARNAME_2: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: PER_adm3
+    Datasource: 
+      file: /home/karito/Desktop/PER_adm/PER_adm3.shp
+      type: shape
+    description: ''
+    fields: 
+      ENGTYPE_3: String
+      ID_0: Number
+      ID_1: Number
+      ID_2: Number
+      ID_3: Number
+      ISO: String
+      NAME_0: String
+      NAME_1: String
+      NAME_2: String
+      NAME_3: String
+      NL_NAME_3: String
+      TYPE_3: String
+      VARNAME_3: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 12
+minzoom: 0
+name: ''
